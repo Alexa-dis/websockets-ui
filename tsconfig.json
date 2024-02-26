@@ -1,0 +1,38 @@
+{
+    "compilerOptions": {
+        "module": "ESNext",
+        "target": "ESNext",
+        "rootDir": "./src",
+        "outDir": "./build",
+        "moduleResolution": "node",
+        "noUncheckedIndexedAccess": true,
+        "strict": true,
+        "strictNullChecks": true,
+        "removeComments": true,
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "allowJs": true,
+        "allowSyntheticDefaultImports": true,
+        "noEmit": false,
+        "noEmitOnError": true,
+        "noImplicitAny": true,
+        "forceConsistentCasingInFileNames": true,
+        "noFallthroughCasesInSwitch": true,
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "strictPropertyInitialization": false,
+        "sourceMap": true
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ],
+    "ts-node": {
+        "esm": true,
+        "moduleTypes": {
+            "*": "cjs"
+          }
+    }
+}
